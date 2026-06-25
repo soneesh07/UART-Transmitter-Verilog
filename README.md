@@ -146,14 +146,6 @@ The design was verified using:
 - Icarus Verilog
 - GTKWave
 
-
-## Simulation Waveform
-
-![UART Waveform](images/waveform.png)
-```
-
----
-
 ## Tools Used
 
 - Verilog HDL
