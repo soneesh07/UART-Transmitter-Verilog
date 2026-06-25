@@ -40,8 +40,8 @@ Idle → Start → D0 → D1 → D2 → D3 → D4 → D5 → D6 → D7 → Stop
 ```
 UART-Transmitter-Verilog/
 │
-├── uart.v          # UART transmitter RTL
-├── uart_tb.v       # Testbench
+├── uart_tx.v          # UART transmitter RTL
+├── uart_tx_tb.v       # Testbench
 ├── README.md
 └── .gitignore
 ```
@@ -146,16 +146,7 @@ The design was verified using:
 - Icarus Verilog
 - GTKWave
 
-Add your waveform screenshot below.
 
-```
-images/
-    waveform.png
-```
-
-Then include:
-
-```markdown
 ## Simulation Waveform
 
 ![UART Waveform](images/waveform.png)
@@ -188,7 +179,7 @@ Then include:
 
 **Soneesh**
 
-Electrical Engineering Student
+Electrical Engineering Student,IIT Kharagpur.
 
 Interested in:
 - Digital Design
